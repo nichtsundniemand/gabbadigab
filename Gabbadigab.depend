@@ -1,0 +1,290 @@
+# depslib dependency file v1.0
+1414614765 source:/home/therufuser/coding/Gabbadigab/Inventory/CInventory.cpp
+	"CInventory.h"
+	<iostream>
+	"CItem.h"
+
+1414610269 /home/therufuser/coding/Gabbadigab/Inventory/CInventory.h
+	<vector>
+	"CItemContainer.h"
+
+1416081975 /home/therufuser/coding/Gabbadigab/Inventory/CItem.h
+	<string>
+	<vector>
+	"CItemContainer.h"
+
+1416081975 source:/home/therufuser/coding/Gabbadigab/Inventory/CItem.cpp
+	"CItem.h"
+	<iostream>
+	"Room/CRoom.h"
+
+1416157523 source:/home/therufuser/coding/Gabbadigab/main.cpp
+	"Game/CGame.h"
+	<SDL/SDL_ttf.h>
+
+1414597798 /home/therufuser/coding/Gabbadigab/Room/CRoom.h
+	<vector>
+	"Inventory/CItemContainer.h"
+
+1414615153 source:/home/therufuser/coding/Gabbadigab/Room/CRoom.cpp
+	"CRoom.h"
+	<iostream>
+	"Inventory/CItem.h"
+
+1416086313 /home/therufuser/coding/Gabbadigab/Inventory/CItemContainer.h
+	<vector>
+
+1416081975 source:/home/therufuser/coding/Gabbadigab/Inventory/CItemContainer.cpp
+	"CItemContainer.h"
+
+1416019046 /home/therufuser/coding/Gabbadigab/Render.h
+
+1416157937 source:/home/therufuser/coding/Gabbadigab/Graphics/GUI/CInventoryDisplay.cpp
+	"CInventoryDisplay.h"
+	<iostream>
+	"Game/Inventory/CItem.h"
+
+1416157524 /home/therufuser/coding/Gabbadigab/Graphics/GUI/CInventoryDisplay.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"Game/Inventory/CInventory.h"
+
+1416072623 source:/home/therufuser/coding/Gabbadigab/Input/CCursor.cpp
+	"CCursor.h"
+
+1416072525 /home/therufuser/coding/Gabbadigab/Input/CCursor.h
+	<SDL/SDL.h>
+	"Inventory/CItem.h"
+
+1416091622 source:/home/therufuser/coding/Gabbadigab/Graphics/GUI/CCursorDisplay.cpp
+	"CCursorDisplay.h"
+	<iostream>
+	<SDL/SDL_image.h>
+
+1416099752 /home/therufuser/coding/Gabbadigab/Graphics/GUI/CCursorDisplay.h
+	<string>
+	<SDL/SDL.h>
+	"Game/Input/CCursor.h"
+
+1416157114 source:/home/therufuser/coding/Gabbadigab/Game/CGame.cpp
+	"CGame.h"
+	<SDL/SDL_ttf.h>
+
+1416143036 /home/therufuser/coding/Gabbadigab/Game/CGame.h
+	<SDL/SDL.h>
+	"Graphics/CRoomRenderObject.h"
+	"Graphics/GUI/CInventoryDisplay.h"
+	"Graphics/GUI/CCursorDisplay.h"
+	"Inventory/CInventory.h"
+	"Room/CRoom.h"
+
+1416143442 /home/therufuser/coding/Gabbadigab/Game/Inventory/CInventory.h
+	<vector>
+	"CItemContainer.h"
+
+1416146557 /home/therufuser/coding/Gabbadigab/Game/Inventory/CItemContainer.h
+	<vector>
+
+1416099763 /home/therufuser/coding/Gabbadigab/Game/Input/CCursor.h
+	<SDL/SDL.h>
+	"Game/Inventory/CItem.h"
+
+1416141255 /home/therufuser/coding/Gabbadigab/Game/Inventory/CItem.h
+	<string>
+	<vector>
+	"CItemContainer.h"
+
+1416072623 source:/home/therufuser/coding/Gabbadigab/Game/Input/CCursor.cpp
+	"CCursor.h"
+
+1416141148 source:/home/therufuser/coding/Gabbadigab/Game/Inventory/CInventory.cpp
+	"CInventory.h"
+	"CItem.h"
+
+1416141160 source:/home/therufuser/coding/Gabbadigab/Game/Inventory/CItem.cpp
+	"CItem.h"
+	"Game/Room/CRoom.h"
+
+1416147215 /home/therufuser/coding/Gabbadigab/Game/Room/CRoom.h
+	<vector>
+	"Game/Inventory/CItemContainer.h"
+
+1416147474 source:/home/therufuser/coding/Gabbadigab/Game/Inventory/CItemContainer.cpp
+	"CItemContainer.h"
+
+1416147214 source:/home/therufuser/coding/Gabbadigab/Game/Room/CRoom.cpp
+	"CRoom.h"
+	"Game/Inventory/CItem.h"
+
+1416142710 source:/home/therufuser/coding/Gabbadigab/Graphics/CRenderObject.cpp
+	"CRenderObject.h"
+
+1416142322 /home/therufuser/coding/Gabbadigab/Graphics/CRenderObject.h
+	<SDL/SDL.h>
+
+1416154684 /home/therufuser/coding/Gabbadigab/Graphics/CRoomRenderObject.h
+	"CRenderObject.h"
+	"Game/Room/CRoom.h"
+
+1416156894 source:/home/therufuser/coding/Gabbadigab/Graphics/CRoomRenderObject.cpp
+	"CRoomRenderObject.h"
+	"Game/Inventory/CItem.h"
+
+1416158048 source:/home/therufuser/coding/Gabbadigab/Game/CGame::OnEvent.cpp
+	"CGame.h"
+
+1416157114 source:/home/therufuser/coding/Gabbadigab/Game/CGame::OnRender.cpp
+	"CGame.h"
+
+1418848022 source:/home/therufuser/Coding/Gabbadigab/Game/CGame.cpp
+	"CGame.h"
+	<SDL/SDL_ttf.h>
+	<iostream>
+
+1418757003 /home/therufuser/Coding/Gabbadigab/Game/CGame.h
+	<SDL2/SDL.h>
+	"Entities/GEntityPlayer.h"
+	"Graphics/CRenderContext.h"
+	"Graphics/RObjectRoom.h"
+	"Graphics/RObjectEntity.h"
+	"Graphics/GUI/CInventoryDisplay.h"
+	"Graphics/GUI/CCursorDisplay.h"
+	"Inventory/CItemCatalog.h"
+	"Inventory/CInventory.h"
+	"Room/CRoom.h"
+
+1418594491 /home/therufuser/Coding/Gabbadigab/Graphics/CRoomRenderObject.h
+	"CRenderObject.h"
+	"Game/Room/CRoom.h"
+
+1418600392 /home/therufuser/Coding/Gabbadigab/Graphics/CRenderObject.h
+	<SDL2/SDL.h>
+
+1416147215 /home/therufuser/Coding/Gabbadigab/Game/Room/CRoom.h
+	<vector>
+	"Game/Inventory/CItemContainer.h"
+
+1416146557 /home/therufuser/Coding/Gabbadigab/Game/Inventory/CItemContainer.h
+	<vector>
+
+1418759890 /home/therufuser/Coding/Gabbadigab/Graphics/GUI/CInventoryDisplay.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	"Game/Inventory/CInventory.h"
+
+1416143442 /home/therufuser/Coding/Gabbadigab/Game/Inventory/CInventory.h
+	<vector>
+	"CItemContainer.h"
+
+1418843445 /home/therufuser/Coding/Gabbadigab/Graphics/GUI/CCursorDisplay.h
+	<string>
+	<SDL2/SDL.h>
+	"Game/Input/CCursor.h"
+
+1418593271 /home/therufuser/Coding/Gabbadigab/Game/Input/CCursor.h
+	<SDL2/SDL.h>
+	"Game/Inventory/CItem.h"
+
+1416141255 /home/therufuser/Coding/Gabbadigab/Game/Inventory/CItem.h
+	<string>
+	<vector>
+	"CItemContainer.h"
+
+1418561637 source:/home/therufuser/Coding/Gabbadigab/Game/CGame::OnEvent.cpp
+	"CGame.h"
+
+1418843460 source:/home/therufuser/Coding/Gabbadigab/Game/CGame::OnRender.cpp
+	"CGame.h"
+
+1416072623 source:/home/therufuser/Coding/Gabbadigab/Game/Input/CCursor.cpp
+	"CCursor.h"
+
+1416141148 source:/home/therufuser/Coding/Gabbadigab/Game/Inventory/CInventory.cpp
+	"CInventory.h"
+	"CItem.h"
+
+1416141160 source:/home/therufuser/Coding/Gabbadigab/Game/Inventory/CItem.cpp
+	"CItem.h"
+	"Game/Room/CRoom.h"
+
+1416147474 source:/home/therufuser/Coding/Gabbadigab/Game/Inventory/CItemContainer.cpp
+	"CItemContainer.h"
+
+1416147214 source:/home/therufuser/Coding/Gabbadigab/Game/Room/CRoom.cpp
+	"CRoom.h"
+	"Game/Inventory/CItem.h"
+
+1418600576 source:/home/therufuser/Coding/Gabbadigab/Graphics/CRenderObject.cpp
+	"CRenderObject.h"
+
+1418560334 source:/home/therufuser/Coding/Gabbadigab/Graphics/CRoomRenderObject.cpp
+	"CRoomRenderObject.h"
+	"Game/Inventory/CItem.h"
+
+1418843895 source:/home/therufuser/Coding/Gabbadigab/Graphics/GUI/CCursorDisplay.cpp
+	"CCursorDisplay.h"
+	<iostream>
+	<SDL/SDL_image.h>
+	"Game/Inventory/CItemCatalog.h"
+
+1418841255 source:/home/therufuser/Coding/Gabbadigab/Graphics/GUI/CInventoryDisplay.cpp
+	"CInventoryDisplay.h"
+	<iostream>
+	"Game/Inventory/CItem.h"
+	"Game/Inventory/CItemCatalog.h"
+
+1418595456 source:/home/therufuser/Coding/Gabbadigab/main.cpp
+	"Game/CGame.h"
+	<SDL/SDL_ttf.h>
+
+1418569251 /home/therufuser/Coding/Gabbadigab/Game/Entities/GEntityPlayer.h
+	"CGameEntity.h"
+
+1418593271 /home/therufuser/Coding/Gabbadigab/Game/Entities/CGameEntity.h
+	<SDL2/SDL.h>
+
+1418562351 source:/home/therufuser/Coding/Gabbadigab/Game/Entities/CGameEntity.cpp
+	"CGameEntity.h"
+
+1418674176 source:/home/therufuser/Coding/Gabbadigab/Game/Entities/GEntityPlayer.cpp
+	"GEntityPlayer.h"
+
+1418560850 source:/home/therufuser/Coding/Gabbadigab/Graphics/RObjectPlayer.cpp
+	"RObjectPlayer.h"
+
+1418560410 /home/therufuser/Coding/Gabbadigab/Graphics/RObjectPlayer.h
+	"CRenderObject.h"
+	"Game/Entities/GEntityPlayer.h"
+
+1418600392 /home/therufuser/Coding/Gabbadigab/Graphics/RObjectEntity.h
+	"CRenderObject.h"
+	"Game/Entities/CGameEntity.h"
+
+1418600537 source:/home/therufuser/Coding/Gabbadigab/Graphics/RObjectEntity.cpp
+	"RObjectEntity.h"
+	<iostream>
+
+1418594569 /home/therufuser/Coding/Gabbadigab/Graphics/RObjectRoom.h
+	"CRenderObject.h"
+	"Game/Room/CRoom.h"
+
+1418595456 /home/therufuser/Coding/Gabbadigab/Graphics/CRenderContext.h
+	<string>
+	<SDL2/SDL.h>
+
+1418849258 source:/home/therufuser/Coding/Gabbadigab/Graphics/CRenderContext.cpp
+	"CRenderContext.h"
+
+1418599655 source:/home/therufuser/Coding/Gabbadigab/Graphics/RObjectRoom.cpp
+	"RObjectRoom.h"
+	"Game/Inventory/CItem.h"
+
+1418840927 /home/therufuser/Coding/Gabbadigab/Game/Inventory/CItemCatalog.h
+	<string>
+	<unordered_map>
+	<SDL2/SDL.h>
+
+1418843555 source:/home/therufuser/Coding/Gabbadigab/Game/Inventory/CItemCatalog.cpp
+	"CItemCatalog.h"
+	<iostream>
+

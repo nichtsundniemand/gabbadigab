@@ -1,0 +1,6 @@
+Added	CRoom render Support
+Added	CRoom getter for width and height
+Added	Hiding for the inventory
+Added	Player and Entity Class
+New	Switch to SDL2
+Added	Beginnings of CItemCatalog class
