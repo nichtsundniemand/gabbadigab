@@ -13,9 +13,6 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="Graphics" />
-					<Add directory="Game/Entities" />
-					<Add directory="Inventory" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -28,9 +25,6 @@
 					<Add option="-fexpensive-optimizations" />
 					<Add option="-O3" />
 					<Add option="-Wzero-as-null-pointer-constant" />
-					<Add directory="Graphics" />
-					<Add directory="Game/Entities" />
-					<Add directory="Inventory" />
 				</Compiler>
 			</Target>
 		</Build>
@@ -39,7 +33,7 @@
 			<Add option="-Wextra" />
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="../Gabbadigab" />
+			<Add directory="../gabbadigab" />
 		</Compiler>
 		<Linker>
 			<Add library="SDL2" />
@@ -105,7 +99,7 @@
 			<envvars />
 			<AutoVersioning>
 				<Scheme minor_max="20" build_max="400" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
-				<Settings autoincrement="1" date_declarations="1" use_define="0" update_manifest="0" do_auto_increment="1" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Settings autoincrement="1" date_declarations="1" update_manifest="0" do_auto_increment="1" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
 				<Changes_Log show_changes_editor="1" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
 				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
 			</AutoVersioning>
