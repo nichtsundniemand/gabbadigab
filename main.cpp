@@ -1,6 +1,6 @@
 #include "Game/CGame.h"
 
-#include <SDL/SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 
 int main()
 {

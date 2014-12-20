@@ -1,23 +1,25 @@
 #include "CGame.h"
 
-#include <SDL/SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 
 CGame::CGame()
 :   rendercontext_Main("Doubutsu no Mori", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_UNDEFINED, 1024, 768),
 
-    Player1Renderer(rendercontext_Main.get_Renderer(), &Player1),
+    Player1Renderer(nullptr, &Player1),
 
     theOnlyRoom(5, 4),
-    theRoomsFace(rendercontext_Main.get_Renderer(), &theOnlyRoom),
+    theRoomsFace(nullptr, &theOnlyRoom),
 
-    myInvDisp(rendercontext_Main.get_Renderer(), &myFirstInventory),
+    myInvDisp(nullptr, &myFirstInventory),
 
     cursor_Default(new CCursor),
-    myNewCursorDisplay(rendercontext_Main.get_Renderer(), cursor_Default)
+    myNewCursorDisplay(nullptr, cursor_Default)
 {
     TTF_Init();
 
-    myItemCatalog.OnLoad(rendercontext_Main.get_Renderer(), "");
+    SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "linear");
+
+    myItemCatalog.OnLoad(nullptr, "");
 
     myInvDisp.OnLoad();
     myNewCursorDisplay.OnLoad("hand_open.png", "hand_closed.png");

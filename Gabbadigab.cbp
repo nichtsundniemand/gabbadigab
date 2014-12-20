@@ -39,6 +39,8 @@
 			<Add library="SDL2" />
 			<Add library="SDL2_image" />
 			<Add library="SDL2_ttf" />
+			<Add library="GL" />
+			<Add library="GLU" />
 		</Linker>
 		<Unit filename="Game/CGame.cpp" />
 		<Unit filename="Game/CGame.h" />

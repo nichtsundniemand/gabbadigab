@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include <SDL/SDL_image.h>
+#include <SDL2/SDL_image.h>
 
 #include "Game/Inventory/CItemCatalog.h"
 
@@ -81,6 +81,8 @@ void CCursorDisplay::OnRender(CItemCatalog& theItemCatalog)
 
         case CURSORTYPE_ITEM:
         {
+            rect_Dest.w = rect_Dest.h = 64;
+
             rect_Dest.x -= rect_Dest.w / 2; //center the Icon on the cursor
             rect_Dest.y -= rect_Dest.h / 2; //center the Icon on the cursor
 

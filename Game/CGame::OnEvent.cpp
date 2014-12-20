@@ -134,13 +134,6 @@ void CGame::OnEvent()
                         break;
                     }
 
-                    case SDLK_b:
-                    {
-                        myFirstInventory.inventoryItems.insertItem(&myNewStack, 6);
-
-                        break;
-                    }
-
                     case SDLK_m:
                     {
                         CItem* item1 = myFirstInventory.inventoryItems.getItem(5);

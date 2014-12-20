@@ -33,8 +33,6 @@ class CGame
         CInventory myFirstInventory;
         CInventoryDisplay myInvDisp;
 
-        CItemStack myNewStack;
-
         CCursor* cursor_Default;
         CCursorDisplay myNewCursorDisplay;
 
